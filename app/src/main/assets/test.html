@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <title></title>
+    <meta name="Generator" content="Cocoa HTML Writer">
+    <meta name="CocoaVersion" content="1404.34">
+    <script type="text/javascript">
+    function show(){
+    window.shady.showToast('Demo')
+    }
+
+    function hide(){
+         setTimeout(function(){document.getElementById("content").innerHTML="iiiiiiiii"},5000) ;
+    }
+</script>
+</head>
+<body>
+<h1><div id="content">内容显示</div></h1>
+<p id="color">aaaaa</p>
+<a onClick="window.shady.startFunction()">开始Loading</a><br/>
+<a onclick="window.shady.dismissInteractingProgressDialog()">取消Loading</a><br/>
+<a onclick="show()">Toast</a><br/>
+<button onclick="hide()">点击取消</button>
+</body>
+</html>
